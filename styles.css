@@ -3,6 +3,7 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .main-container
 {
@@ -20,4 +21,19 @@
     grid-template-rows: 1fr 3fr 4fr;
     color: white;
     font-weight: bold;
+}
+.side-bar-logo
+{
+    margin: 5% 0 0 5%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.side-bar-logo>svg
+{
+    fill: white;
+}
+.side-bar-logo>p
+{
+    display: inline;
 }
