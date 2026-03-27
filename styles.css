@@ -1,6 +1,7 @@
 :root
 {
     font-size: 62.5%;
+    --blueBackground : rgb(51, 169, 248);
 }
 *
 {
@@ -14,11 +15,11 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 4.5fr;
 }
 .side-bar
 {
-    background-color: rgb(51, 169, 248);
+    background-color: var(--blueBackground,lightblue);
     grid-column: 1/2;
     grid-row: span;
     display: grid;
@@ -27,6 +28,7 @@
     font-weight: bold;
     
 }
+
 .side-bar-logo
 {   
     margin: 0 0 0 0.6rem;
@@ -52,7 +54,7 @@
     display: grid;
     grid-template-rows: repeat(3,auto);
     align-content: start;
-    gap:1rem;
+    gap:0.8rem;
 }
 svg
 {
