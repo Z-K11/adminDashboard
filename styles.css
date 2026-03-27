@@ -10,6 +10,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+body
+{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+}
 .main-container
 {
     width: 100vw;
@@ -77,5 +82,39 @@ svg
 .svg-div + p
 {
     font-size: 1.4rem;
-    font-weight: bolder;
+    font-weight: 700;
+}
+.main-section
+{
+    grid-template-rows: 0.5fr 1fr 5fr;
+}
+.nav-bar
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.search-wrapper
+{
+    margin: 0.5rem 0 0 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+input[type="search"]
+{
+    outline: none;
+    border: none;
+    width : 40rem;
+    background-color: rgba(211, 211, 211, 0.384);
+    border-radius: 0.7rem;
+}
+.search-icon-wrapper
+{
+    width: 2rem;
+    height: 2rem;
+}
+.search-icon-wrapper>svg
+{
+    fill: rgb(148, 148, 148);
 }
