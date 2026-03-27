@@ -89,7 +89,6 @@ svg
 {
     display: grid;
     grid-template-rows: 0.5fr 0.5fr 5fr;
-    margin: 1.5rem 7% 0 5%  ;
 }
 .nav-bar
 {
@@ -173,6 +172,7 @@ img
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-shadow: 0 2.5px 4px -2px gray;
 }
 .header-right
 {
@@ -189,4 +189,8 @@ button
     border: none;
     color:white;
     border-radius: 3rem;
+}
+.nav-bar,.nav-header
+{
+    padding: 1.5rem 3% 1rem 3%  ;
 }
