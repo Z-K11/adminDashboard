@@ -64,9 +64,9 @@ body
 }
 svg
 {
-    fill: white;
     width: 100%;
     height: 100%;
+    fill: white;
 }
 .svg-div
 {
@@ -216,9 +216,11 @@ button
 .project
 {
     background-color: white;
-    padding : 2.5%;
+    padding : 5%;
     border-radius: 0.5rem;
     border-left: 0.5rem solid yellow;
+    display: grid;
+    grid-template-rows: 2fr 0.5fr;
 }
 .section-content::before
 {
@@ -228,4 +230,20 @@ button
     content: "Your Projects";
     font-weight: 600;
     font-size: 150%;
+}
+.svg-project
+{
+    height: 2rem;
+    width: 2rem;
+}
+.svg-project>svg
+{
+    fill:rgb(51, 51, 51);
+}
+.project-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:5%;
 }
