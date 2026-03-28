@@ -287,7 +287,10 @@ button
     background-color: white;
     border-radius: 1rem;
     height: 100%;
+    width: 100%;
     padding: 10% 7%;
+    gap :2rem;
+    align-items: center;
 }
 .trending::before
 {
@@ -301,4 +304,32 @@ button
     font-size: 150%;
     padding-bottom: 5%;
 
+}
+.trend-icon-bar
+{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.trend-content-bar
+{
+    display: flex;
+    flex-direction: column;
+    gap :1rem;
+}
+.trend-content
+{
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trend-wrapper>p:first-child
+{
+    font-weight: 700;
+}
+.trend-icon>.svg-project
+{
+    width: 4rem;
+    height: 4rem;
 }
